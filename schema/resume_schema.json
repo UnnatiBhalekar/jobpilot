@@ -1,0 +1,89 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "StructuredResume",
+  "type": "object",
+  "required": ["personal", "experience", "education", "skills"],
+  "properties": {
+    "personal": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "location": { "type": "string" },
+        "email": { "type": "string" },
+        "phone": { "type": "string" },
+        "linkedin": { "type": ["string", "null"] },
+        "github": { "type": ["string", "null"] }
+      }
+    },
+    "summary": { "type": "string" },
+    "experience": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "company", "role", "location", "start", "end", "bullets"],
+        "properties": {
+          "id": { "type": "string" },
+          "company": { "type": "string" },
+          "role": { "type": "string" },
+          "location": { "type": "string" },
+          "start": { "type": "string" },
+          "end": { "type": "string" },
+          "bullets": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id", "text", "tags"],
+              "properties": {
+                "id": { "type": "string" },
+                "text": { "type": "string" },
+                "tags": { "type": "array", "items": { "type": "string" } }
+              }
+            }
+          }
+        }
+      }
+    },
+    "education": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "institution": { "type": "string" },
+          "degree": { "type": "string" },
+          "location": { "type": "string" },
+          "end": { "type": "string" },
+          "grade": { "type": ["string", "null"] },
+          "highlights": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "projects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "tech": { "type": "array", "items": { "type": "string" } },
+          "bullets": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": { "type": "string" },
+                "text": { "type": "string" },
+                "tags": { "type": "array", "items": { "type": "string" } }
+              }
+            }
+          }
+        }
+      }
+    },
+    "skills": {
+      "type": "object",
+      "additionalProperties": { "type": "array", "items": { "type": "string" } }
+    },
+    "activities": { "type": "array", "items": { "type": "string" } }
+  }
+}
