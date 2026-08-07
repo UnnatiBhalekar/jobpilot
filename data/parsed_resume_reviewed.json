@@ -1,0 +1,318 @@
+{
+  "personal": {
+    "name": "Unnati Bhalekar",
+    "location": "Dublin, Ireland",
+    "email": "unnatibhalekar@outlook.com",
+    "phone": "+353 89 246 9008",
+    "linkedin": "https://www.linkedin.com/in/unnatibhalekar/",
+    "github": "https://github.com/UnnatiBhalekar"
+  },
+  "summary": "Security-focused software engineer with 2+ years of professional experience applying cybersecurity principles throughout the software development lifecycle in production environments. MSc in Secure Software Engineering (Dublin City University, 2.1 grade) providing formal grounding in OWASP standards, threat modelling, vulnerability management, secure SDLC practices, cryptography, authentication protocols, and compliance frameworks. Hands-on experience implementing security controls across production systems: automated vulnerability scanning via SonarCloud SAST in every CI/CD pipeline, OAuth2 and JWT authentication with RS256 signing, OWASP compliant API design with input validation at every trust boundary, least-privilege IAM across AWS, and encryption in transit and at rest. Built AppSecSentinel, an automated security assessment tool performing OWASP vulnerability detection, JWT attack vector analysis, and IAM privilege escalation identification. Collaborative team contributor with strong documentation and communication skills across technical and non-technical stakeholders. Available immediately.",
+  "experience": [
+    {
+      "id": "exp-1",
+      "company": "UST",
+      "role": "Software Developer II",
+      "location": "Pune, India",
+      "start": "July 2022",
+      "end": "July 2024",
+      "bullets": [
+        {
+          "id": "exp-1-b1",
+          "text": "Implemented security controls and cybersecurity best practices throughout the secure software development lifecycle on all production systems. Applied OWASP compliant API design, input validation at every trust boundary, authentication and authorisation controls, encryption in transit and at rest, and security quality gates in every CI/CD pipeline. Security embedded in design and development rather than applied as a post-delivery audit.",
+          "tags": [
+            "secure-sdlc",
+            "owasp",
+            "api-security",
+            "encryption",
+            "ci-cd"
+          ]
+        },
+        {
+          "id": "exp-1-b2",
+          "text": "Conducted automated vulnerability assessments and security scanning across production codebases. SonarCloud SAST integrated into every GitHub Actions CI/CD pipeline detecting OWASP vulnerability patterns, SQL injection risks, insecure dependency versions, and security anti-patterns before production deployment. Participated in remediation activities to address identified vulnerabilities and prevent recurrence.",
+          "tags": [
+            "sast",
+            "sonarcloud",
+            "vulnerability-assessment",
+            "github-actions",
+            "ci-cd"
+          ]
+        },
+        {
+          "id": "exp-1-b3",
+          "text": "Designed and implemented OAuth2 and JWT authentication systems for production APIs. Applied RS256 signing for tamper-evident token validation, enforced token expiry and audience claim validation on every request, implemented RBAC with least-privilege access control, and applied Spring Security for defence-in-depth authentication architecture.",
+          "tags": [
+            "oauth2",
+            "jwt",
+            "spring-security",
+            "rbac",
+            "authentication"
+          ]
+        },
+        {
+          "id": "exp-1-b4",
+          "text": "Applied least-privilege access control and IAM security principles across all AWS cloud resources. Designed fine-grained IAM policies restricting service permissions to minimum required access, implemented resource-based policies, enforced encryption of data at rest using AWS KMS compatible patterns, and audited IAM configurations for privilege escalation risks as standard practice.",
+          "tags": [
+            "aws-iam",
+            "least-privilege",
+            "cloud-security",
+            "encryption",
+            "privilege-escalation"
+          ]
+        },
+        {
+          "id": "exp-1-b5",
+          "text": "Maintained security compliance and documentation throughout all project delivery. Produced technical documentation for security controls, authentication architecture, and API security specifications. Supported security review activities and contributed to security-aware engineering standards across cross-functional teams.",
+          "tags": [
+            "security-compliance",
+            "documentation",
+            "api-security",
+            "security-review"
+          ]
+        },
+        {
+          "id": "exp-1-b6",
+          "text": "Participated in incident response and root cause analysis for production security-related events. Applied structured investigation methodology across distributed system boundaries, drove permanent fixes to address underlying vulnerabilities rather than symptomatic patches, and maintained 24/7 on-call production ownership with blameless postmortems.",
+          "tags": [
+            "incident-response",
+            "root-cause-analysis",
+            "distributed-systems",
+            "production-support"
+          ]
+        },
+        {
+          "id": "exp-1-b7",
+          "text": "Collaborated with cross-functional teams including security, QA, DevOps, and architecture stakeholders to deliver secure solutions meeting both technical and compliance requirements. Communicated security risks, trade-offs, and remediation approaches clearly to both technical and non-technical audiences.",
+          "tags": [
+            "cross-functional-collaboration",
+            "security-compliance",
+            "devops",
+            "communication"
+          ]
+        },
+        {
+          "id": "exp-1-b8",
+          "text": "Leveraged AI-assisted development tools including Claude Code and GitHub Copilot to improve security engineering productivity, accelerate security review processes, and maintain high code quality standards throughout all professional work.",
+          "tags": [
+            "ai-assisted-development",
+            "code-quality",
+            "security-review",
+            "productivity"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exp-2",
+      "company": "Wolters Kluwer",
+      "role": "Performance Testing Intern",
+      "location": "Pune, India",
+      "start": "Feb 2022",
+      "end": "July 2022",
+      "bullets": [
+        {
+          "id": "exp-2-b1",
+          "text": "Conducted structured security and performance assessments for enterprise Java applications, identifying vulnerabilities and performance risks through systematic analysis. Contributed to a 30% improvement in system reliability through root cause investigation and remediation.",
+          "tags": [
+            "performance-testing",
+            "vulnerability-assessment",
+            "java",
+            "root-cause-analysis"
+          ]
+        },
+        {
+          "id": "exp-2-b2",
+          "text": "Collaborated with senior engineers and stakeholders, producing clear technical documentation and communicating findings effectively across technical and non-technical audiences.",
+          "tags": [
+            "documentation",
+            "communication",
+            "collaboration"
+          ]
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-1",
+      "institution": "Dublin City University",
+      "degree": "MSc in Computing (Secure Software Engineering)",
+      "location": null,
+      "end": "Aug 2025",
+      "grade": "2.1",
+      "highlights": [
+        "OWASP Top 10 vulnerability categories and mitigations",
+        "Threat modelling and risk assessment",
+        "Secure SDLC practices",
+        "OAuth2 and JWT authentication protocols",
+        "Cryptography and PKI",
+        "Identity and access management",
+        "Vulnerability management",
+        "Network security and protocols",
+        "Compliance frameworks (NIST, ISO 27001 concepts)",
+        "AI security and responsible AI",
+        "Incident detection and response principles"
+      ]
+    },
+    {
+      "id": "edu-2",
+      "institution": "PCCOE",
+      "degree": "Bachelor of Computer Engineering",
+      "location": "Pune, India",
+      "end": "June 2022",
+      "grade": "CGPA 9.7/10",
+      "highlights": [
+        "Data Structures and Algorithms",
+        "Computer Networks and Security",
+        "Operating Systems",
+        "Database Management Systems",
+        "Software Engineering"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "name": "AppSecSentinel, Automated Security Assessment Tool (Python)",
+      "tech": [
+        "Python",
+        "Anthropic Claude API",
+        "Model Context Protocol",
+        "OWASP scanner",
+        "JWT security analyser",
+        "IAM policy analyser",
+        "SHA-256 audit logging",
+        "Docker",
+        "GitHub Actions CI/CD"
+      ],
+      "bullets": [
+        {
+          "id": "proj-1-b1",
+          "text": "Built a production automated security assessment tool demonstrating applied cybersecurity engineering. OWASP vulnerability scanner detecting 15 vulnerability categories across application code, JWT security inspector identifying authentication attack vectors including alg:none attacks, weak signing algorithms, and missing validation claims, and IAM policy analyser flagging privilege escalation risks and over-permissive access. Every assessment logged with SHA-256 hashed audit trail for tamper-evident compliance records. Demonstrates practical vulnerability management, threat identification, and security automation capability. Publicly available on GitHub.",
+          "tags": [
+            "owasp",
+            "jwt",
+            "iam",
+            "vulnerability-assessment",
+            "security-automation",
+            "audit-logging"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proj-2",
+      "name": "JWT Token Inspector, Open Source Authentication Security Tool (Java)",
+      "tech": [
+        "Java",
+        "Spring Boot",
+        "REST API",
+        "JWT validation",
+        "Security test suite",
+        "Docker",
+        "GitHub Actions"
+      ],
+      "bullets": [
+        {
+          "id": "proj-2-b1",
+          "text": "Open source security tool for JWT authentication token inspection and attack vector detection. Identifies alg:none vulnerabilities, missing expiry claims, weak signing algorithms, and missing issuer and audience validation \u2014 the most common JWT authentication vulnerabilities in production systems. Full TDD with security-focused test cases, CI/CD automated. Publicly available on GitHub.",
+          "tags": [
+            "jwt",
+            "authentication",
+            "spring-boot",
+            "tdd",
+            "ci-cd"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proj-3",
+      "name": "Secure Doc Vault, Production Platform with Security-First Architecture",
+      "tech": [
+        "Java 17",
+        "Spring Boot",
+        "Spring Security",
+        "OAuth2",
+        "JWT",
+        "AWS IAM",
+        "SonarCloud SAST",
+        "Docker",
+        "Kubernetes",
+        "GitHub Actions"
+      ],
+      "bullets": [
+        {
+          "id": "proj-3-b1",
+          "text": "Production platform built with security as a primary engineering constraint from the start. OAuth2 and JWT authentication with RS256 signing, OWASP compliant API design, RBAC with least-privilege, encryption in transit and at rest, SonarCloud SAST in every CI/CD pipeline, tamper-evident audit logging, and AWS least-privilege IAM across all resources. Demonstrates secure SDLC discipline applied throughout rather than security bolted on after delivery.",
+          "tags": [
+            "oauth2",
+            "jwt",
+            "spring-security",
+            "owasp",
+            "aws-iam",
+            "secure-sdlc"
+          ]
+        }
+      ]
+    }
+  ],
+  "skills": {
+    "Vulnerability Assessment and Management": [
+      "OWASP Top 10 (production scanning across 15 categories)",
+      "SonarCloud SAST (automated security scanning in SDLC)",
+      "Dependency vulnerability management",
+      "IAM privilege escalation detection",
+      "JWT attack vector identification (alg:none, weak algorithms, missing claims)",
+      "CVE awareness and remediation"
+    ],
+    "Authentication and Access Control": [
+      "OAuth2 (Authorization Code flow, PKCE)",
+      "JWT (RS256 and HS256, token validation, attack vector detection)",
+      "OpenID Connect",
+      "RBAC and least-privilege IAM",
+      "AWS IAM policy design",
+      "Spring Security",
+      "Session management",
+      "MFA concepts"
+    ],
+    "Secure SDLC": [
+      "OWASP compliant API design",
+      "Input validation and output encoding",
+      "Security quality gates in CI/CD",
+      "Threat modelling",
+      "Secure code review",
+      "Cryptography (symmetric and asymmetric, key management concepts)",
+      "Encryption in transit and at rest",
+      "Secrets management principles"
+    ],
+    "Compliance and Frameworks": [
+      "NIST Cybersecurity Framework awareness",
+      "ISO 27001 concepts",
+      "Secure SDLC methodologies",
+      "Audit logging and tamper-evidence (SHA-256 hashing)",
+      "Compliance-aware engineering",
+      "Documentation for security controls"
+    ],
+    "Cloud Security": [
+      "AWS IAM least-privilege",
+      "AWS security services (CloudWatch, CloudTrail concepts, GuardDuty awareness)",
+      "Encryption at rest and in transit",
+      "Container security (Docker, Kubernetes)",
+      "Network security groups and VPC concepts"
+    ],
+    "Security Tools and Automation": [
+      "SonarCloud SAST",
+      "GitHub Actions security gates",
+      "Python security automation (AppSecSentinel)",
+      "Structured audit logging",
+      "AI-assisted security analysis (Anthropic Claude API, MCP)"
+    ]
+  },
+  "activities": [
+    "Reached final technical interview round at JPMorgan Chase Application Security team, Dublin, demonstrating recognised cybersecurity engineering capability at financial services level.",
+    "ACM Student Chapter, Communication and Personality Development Cell Head. Strong documentation, communication, and cross-functional collaboration skills across technical and non-technical stakeholders.",
+    "Based in Dublin, Ireland. Full work authorisation on Stamp 1G Visa. Available immediately."
+  ]
+}
