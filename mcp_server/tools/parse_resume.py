@@ -14,6 +14,8 @@ literally present.
 import json
 import anthropic
 
+from text_utils import fix_missing_spaces
+
 client = anthropic.Anthropic()  # reads ANTHROPIC_API_KEY from env
 
 EXTRACTION_PROMPT = """You are a precise resume-parsing assistant. Your ONLY job is to convert the raw resume text below into structured JSON. You are extracting, not writing.
@@ -56,7 +58,19 @@ def parse_resume(resume_text: str, schema_path: str = "../../schema/resume_schem
         if raw.startswith("json"):
             raw = raw[4:]
 
-    return json.loads(raw)
+    return _clean_resume_text(json.loads(raw))
+
+
+def _clean_resume_text(data: dict) -> dict:
+    if data.get("summary"):
+        data["summary"] = fix_missing_spaces(data["summary"])
+    for exp in data.get("experience", []):
+        for bullet in exp.get("bullets", []):
+            bullet["text"] = fix_missing_spaces(bullet["text"])
+    for proj in data.get("projects", []):
+        for bullet in proj.get("bullets", []):
+            bullet["text"] = fix_missing_spaces(bullet["text"])
+    return data
 
 
 TOOL_DEFINITION = {

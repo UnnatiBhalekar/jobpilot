@@ -4,8 +4,8 @@
     "location": "Dublin, Ireland",
     "email": "unnatibhalekar@outlook.com",
     "phone": "+353 89 246 9008",
-    "linkedin": "https://www.linkedin.com/in/unnatibhalekar/",
-    "github": "https://github.com/UnnatiBhalekar"
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
   },
   "summary": "Security-focused software engineer with 2+ years of professional experience applying cybersecurity principles throughout the software development lifecycle in production environments. MSc in Secure Software Engineering (Dublin City University, 2.1 grade) providing formal grounding in OWASP standards, threat modelling, vulnerability management, secure SDLC practices, cryptography, authentication protocols, and compliance frameworks. Hands-on experience implementing security controls across production systems: automated vulnerability scanning via SonarCloud SAST in every CI/CD pipeline, OAuth2 and JWT authentication with RS256 signing, OWASP compliant API design with input validation at every trust boundary, least-privilege IAM across AWS, and encryption in transit and at rest. Built AppSecSentinel, an automated security assessment tool performing OWASP vulnerability detection, JWT attack vector analysis, and IAM privilege escalation identification. Collaborative team contributor with strong documentation and communication skills across technical and non-technical stakeholders. Available immediately.",
   "experience": [
@@ -68,7 +68,7 @@
             "security-compliance",
             "documentation",
             "api-security",
-            "security-review"
+            "authentication"
           ]
         },
         {
@@ -98,7 +98,7 @@
             "ai-assisted-development",
             "code-quality",
             "security-review",
-            "productivity"
+            "developer-productivity"
           ]
         }
       ]
@@ -127,7 +127,7 @@
           "tags": [
             "documentation",
             "communication",
-            "collaboration"
+            "cross-functional-collaboration"
           ]
         }
       ]
@@ -249,10 +249,10 @@
           "tags": [
             "oauth2",
             "jwt",
-            "spring-security",
             "owasp",
             "aws-iam",
-            "secure-sdlc"
+            "secure-sdlc",
+            "sast"
           ]
         }
       ]
